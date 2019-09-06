@@ -5,4 +5,6 @@ def run_guessing_game
   if user_input == random.to_s 
     puts "you guessed the correct number"
   else input.downcase=="exit"
+    puts "Goodbye!"
+    
 end
