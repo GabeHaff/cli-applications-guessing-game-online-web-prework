@@ -4,5 +4,5 @@ def run_guessing_game
   user_input = gets.chomp 
   if user_input == random.to_s 
     puts "you guessed the correct number"
-    
+  else input.downcase=
 end
